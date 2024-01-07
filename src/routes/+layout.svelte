@@ -21,3 +21,6 @@
 
 
 <TopNav links={NavLinks} />
+
+
+<slot />
