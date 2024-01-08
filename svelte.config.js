@@ -1,20 +1,17 @@
 import adapter from '@sveltejs/adapter-static';
-import preprocess from 'svelte-preprocess';
+import sveltePreprocess from 'svelte-preprocess';
+
+
+export const prerender = true;
+
 
 /** @type {import('@sveltejs/kit').Config} */
-const config = {
-    preprocess: preprocess({
-  }),
-
+export default {
+    preprocess: sveltePreprocess(),
     kit: {
-        adapter: adapter({
-            pages: 'build',
-            assets: 'build',
-            fallback: undefined,
-            precompress: true,
-            strict: true
-        })
-    }
+        adapter: adapter()
+    },
+
 };
 
-export default config;
+
