@@ -6,7 +6,7 @@
 
 <main>
     <div class="aboutMe">
-        <h1>Niklaus Külling</h1>
+        <h1>N.K.</h1>
         <div class="nextother">
             <img src="/images/picture.png" />
             <p>
