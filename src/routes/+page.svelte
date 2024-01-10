@@ -6,11 +6,11 @@
 
 <main>
     <div class="aboutMe">
-        <h1>N.K.</h1>
+        <h1>Niklaus K.</h1>
         <div class="nextother">
             <img src="/images/picture.png" />
             <p>
-                I'm a X-year-old student currently apprenticing at Bruetsch Elektroniks AG, where my daily focus
+                I'm currently apprenticing at Bruetsch Elektroniks AG with vocational baccalaureate, where my daily focus
                 revolves around managing network infrastructure. Additionally, I possess skills in
                 backend, frontend development and PowerShell scripting.
             </p>
